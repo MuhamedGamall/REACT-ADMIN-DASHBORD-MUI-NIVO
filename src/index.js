@@ -9,6 +9,7 @@ import { Suspense } from "react";
 import { lazy } from "react";
 
 import Root from "./pages/Root";
+
 const ErrorPage = lazy(() => import("./pages/ErrorPage"));
 const Team = lazy(() => import("./scenes/team/Team"));
 const Contacts = lazy(() => import("./scenes/contacts/Contacts"));
@@ -18,7 +19,9 @@ const Form = lazy(() => import("./scenes/form/form"));
 const Calendar = lazy(() => import("./scenes/calendar/Calendar"));
 const FAQ = lazy(() => import("./scenes/faq/Faq"));
 const Bar = lazy(() => import("./scenes/bar/Bar"));
-
+const Pie = lazy(() => import("./scenes/pie/Pie"));
+const Line = lazy(() => import("./scenes/line/Line"));
+const Geography = lazy(() => import("./scenes/geography/Geography"));
 
 const LoadingMessage = <h1>"Loading Please Wiat... "</h1>;
 const routes = createBrowserRouter([
@@ -96,9 +99,30 @@ const routes = createBrowserRouter([
           </Suspense>
         ),
       },
-      // { path: "line", element: <Line /> },
-      // { path: "pie", element: <Pie /> },
-      // { path: "geography", element:<Geography /> },
+      {
+        path: "pie",
+        element: (
+          <Suspense fallback={LoadingMessage}>
+            <Pie />
+          </Suspense>
+        ),
+      },
+      {
+        path: "line",
+        element: (
+          <Suspense fallback={LoadingMessage}>
+            <Line />
+          </Suspense>
+        ),
+      },
+      {
+        path: "geography",
+        element: (
+          <Suspense fallback={LoadingMessage}>
+            <Geography />
+          </Suspense>
+        ),
+      },
     ],
   },
 ]);

@@ -424,167 +424,307 @@ export const mockBarData = [
     donutColor: "hsl(244, 70%, 50%)",
   },
 ];
+export const mockPieData = [
+  {
+    id: "haskell",
+    label: "haskell",
+    value: 224,
+    color: "hsl(65, 70%, 50%)",
+  },
+  {
+    id: "scala",
+    label: "scala",
+    value: 551,
+    color: "hsl(310, 70%, 50%)",
+  },
+  {
+    id: "rust",
+    label: "rust",
+    value: 108,
+    color: "hsl(278, 70%, 50%)",
+  },
+  {
+    id: "go",
+    label: "go",
+    value: 221,
+    color: "hsl(184, 70%, 50%)",
+  },
+  {
+    id: "hack",
+    label: "hack",
+    value: 429,
+    color: "hsl(23, 70%, 50%)",
+  },
+];
 
 export const mockLineData = [
   {
     id: "japan",
-    color: tokens("dark").greenAccent[500],
+    color: "hsl(293, 70%, 50%)",
     data: [
       {
         x: "plane",
-        y: 101,
+        y: 119,
       },
       {
         x: "helicopter",
-        y: 75,
-      },
-      {
-        x: "boat",
-        y: 36,
-      },
-      {
-        x: "train",
-        y: 216,
-      },
-      {
-        x: "subway",
-        y: 35,
-      },
-      {
-        x: "bus",
-        y: 236,
-      },
-      {
-        x: "car",
-        y: 88,
-      },
-      {
-        x: "moto",
         y: 232,
       },
       {
+        x: "boat",
+        y: 286,
+      },
+      {
+        x: "train",
+        y: 285,
+      },
+      {
+        x: "subway",
+        y: 132,
+      },
+      {
+        x: "bus",
+        y: 95,
+      },
+      {
+        x: "car",
+        y: 264,
+      },
+      {
+        x: "moto",
+        y: 183,
+      },
+      {
         x: "bicycle",
-        y: 281,
+        y: 216,
       },
       {
         x: "horse",
-        y: 1,
+        y: 247,
       },
       {
         x: "skateboard",
-        y: 35,
+        y: 6,
       },
       {
         x: "others",
-        y: 14,
+        y: 179,
       },
     ],
   },
   {
     id: "france",
-    color: tokens("dark").blueAccent[300],
+    color: "hsl(229, 70%, 50%)",
     data: [
       {
         x: "plane",
-        y: 212,
+        y: 84,
       },
       {
         x: "helicopter",
-        y: 190,
+        y: 39,
       },
       {
         x: "boat",
-        y: 270,
+        y: 157,
       },
       {
         x: "train",
-        y: 9,
+        y: 252,
       },
       {
         x: "subway",
-        y: 75,
+        y: 161,
       },
       {
         x: "bus",
-        y: 175,
+        y: 230,
       },
       {
         x: "car",
-        y: 33,
+        y: 76,
       },
       {
         x: "moto",
-        y: 189,
+        y: 33,
       },
       {
         x: "bicycle",
-        y: 97,
+        y: 116,
       },
       {
         x: "horse",
-        y: 87,
+        y: 173,
       },
       {
         x: "skateboard",
-        y: 299,
+        y: 74,
       },
       {
         x: "others",
-        y: 251,
+        y: 41,
       },
     ],
   },
   {
     id: "us",
-    color: tokens("dark").redAccent[200],
+    color: "hsl(125, 70%, 50%)",
     data: [
       {
         x: "plane",
-        y: 191,
+        y: 297,
       },
       {
         x: "helicopter",
-        y: 136,
+        y: 236,
       },
       {
         x: "boat",
-        y: 91,
+        y: 67,
       },
       {
         x: "train",
-        y: 190,
+        y: 219,
       },
       {
         x: "subway",
-        y: 211,
+        y: 53,
       },
       {
         x: "bus",
-        y: 152,
+        y: 6,
       },
       {
         x: "car",
-        y: 189,
+        y: 39,
       },
       {
         x: "moto",
-        y: 152,
+        y: 135,
       },
       {
         x: "bicycle",
-        y: 8,
+        y: 53,
       },
       {
         x: "horse",
-        y: 197,
+        y: 281,
       },
       {
         x: "skateboard",
-        y: 107,
+        y: 281,
       },
       {
         x: "others",
-        y: 170,
+        y: 256,
+      },
+    ],
+  },
+  {
+    id: "germany",
+    color: "hsl(192, 70%, 50%)",
+    data: [
+      {
+        x: "plane",
+        y: 76,
+      },
+      {
+        x: "helicopter",
+        y: 298,
+      },
+      {
+        x: "boat",
+        y: 119,
+      },
+      {
+        x: "train",
+        y: 288,
+      },
+      {
+        x: "subway",
+        y: 27,
+      },
+      {
+        x: "bus",
+        y: 112,
+      },
+      {
+        x: "car",
+        y: 261,
+      },
+      {
+        x: "moto",
+        y: 38,
+      },
+      {
+        x: "bicycle",
+        y: 39,
+      },
+      {
+        x: "horse",
+        y: 128,
+      },
+      {
+        x: "skateboard",
+        y: 84,
+      },
+      {
+        x: "others",
+        y: 133,
+      },
+    ],
+  },
+  {
+    id: "norway",
+    color: "hsl(245, 70%, 50%)",
+    data: [
+      {
+        x: "plane",
+        y: 224,
+      },
+      {
+        x: "helicopter",
+        y: 161,
+      },
+      {
+        x: "boat",
+        y: 123,
+      },
+      {
+        x: "train",
+        y: 273,
+      },
+      {
+        x: "subway",
+        y: 283,
+      },
+      {
+        x: "bus",
+        y: 89,
+      },
+      {
+        x: "car",
+        y: 40,
+      },
+      {
+        x: "moto",
+        y: 51,
+      },
+      {
+        x: "bicycle",
+        y: 227,
+      },
+      {
+        x: "horse",
+        y: 151,
+      },
+      {
+        x: "skateboard",
+        y: 45,
+      },
+      {
+        x: "others",
+        y: 150,
       },
     ],
   },
@@ -593,686 +733,686 @@ export const mockLineData = [
 export const mockGeographyData = [
   {
     id: "AFG",
-    value: 520600,
+    value: 817041,
   },
   {
     id: "AGO",
-    value: 949905,
+    value: 726992,
   },
   {
     id: "ALB",
-    value: 329910,
+    value: 254007,
   },
   {
     id: "ARE",
-    value: 675484,
+    value: 75155,
   },
   {
     id: "ARG",
-    value: 432239,
+    value: 161768,
   },
   {
     id: "ARM",
-    value: 288305,
+    value: 247977,
   },
   {
     id: "ATA",
-    value: 415648,
+    value: 817220,
   },
   {
     id: "ATF",
-    value: 665159,
+    value: 810428,
   },
   {
     id: "AUT",
-    value: 798526,
+    value: 559437,
   },
   {
     id: "AZE",
-    value: 481678,
+    value: 60813,
   },
   {
     id: "BDI",
-    value: 496457,
+    value: 418920,
   },
   {
     id: "BEL",
-    value: 252276,
+    value: 390275,
   },
   {
     id: "BEN",
-    value: 440315,
+    value: 719828,
   },
   {
     id: "BFA",
-    value: 343752,
+    value: 306905,
   },
   {
     id: "BGD",
-    value: 920203,
+    value: 390041,
   },
   {
     id: "BGR",
-    value: 261196,
+    value: 433893,
   },
   {
     id: "BHS",
-    value: 421551,
+    value: 74547,
   },
   {
     id: "BIH",
-    value: 974745,
+    value: 194025,
   },
   {
     id: "BLR",
-    value: 349288,
+    value: 900048,
   },
   {
     id: "BLZ",
-    value: 305983,
+    value: 932838,
   },
   {
     id: "BOL",
-    value: 430840,
+    value: 356018,
   },
   {
     id: "BRN",
-    value: 345666,
+    value: 728003,
   },
   {
     id: "BTN",
-    value: 649678,
+    value: 500847,
   },
   {
     id: "BWA",
-    value: 319392,
+    value: 32263,
   },
   {
     id: "CAF",
-    value: 722549,
+    value: 65027,
   },
   {
     id: "CAN",
-    value: 332843,
+    value: 921489,
   },
   {
     id: "CHE",
-    value: 122159,
+    value: 770579,
   },
   {
     id: "CHL",
-    value: 811736,
+    value: 467442,
   },
   {
     id: "CHN",
-    value: 593604,
+    value: 259393,
   },
   {
     id: "CIV",
-    value: 143219,
+    value: 940993,
   },
   {
     id: "CMR",
-    value: 630627,
+    value: 910857,
   },
   {
     id: "COG",
-    value: 498556,
+    value: 365157,
   },
   {
     id: "COL",
-    value: 660527,
+    value: 127708,
   },
   {
     id: "CRI",
-    value: 60262,
+    value: 761747,
   },
   {
     id: "CUB",
-    value: 177870,
+    value: 975361,
   },
   {
     id: "-99",
-    value: 463208,
+    value: 522564,
   },
   {
     id: "CYP",
-    value: 945909,
+    value: 780223,
   },
   {
     id: "CZE",
-    value: 500109,
+    value: 229417,
   },
   {
     id: "DEU",
-    value: 63345,
+    value: 206454,
   },
   {
     id: "DJI",
-    value: 634523,
+    value: 241745,
   },
   {
     id: "DNK",
-    value: 731068,
+    value: 23934,
   },
   {
     id: "DOM",
-    value: 262538,
+    value: 596594,
   },
   {
     id: "DZA",
-    value: 760695,
+    value: 468220,
   },
   {
     id: "ECU",
-    value: 301263,
+    value: 451590,
   },
   {
     id: "EGY",
-    value: 148475,
+    value: 608136,
   },
   {
     id: "ERI",
-    value: 939504,
+    value: 336309,
   },
   {
     id: "ESP",
-    value: 706050,
+    value: 895177,
   },
   {
     id: "EST",
-    value: 977015,
+    value: 866937,
   },
   {
     id: "ETH",
-    value: 461734,
+    value: 114866,
   },
   {
     id: "FIN",
-    value: 22800,
+    value: 352816,
   },
   {
     id: "FJI",
-    value: 18985,
+    value: 652307,
   },
   {
     id: "FLK",
-    value: 64986,
+    value: 764947,
   },
   {
     id: "FRA",
-    value: 447457,
+    value: 860926,
   },
   {
     id: "GAB",
-    value: 669675,
+    value: 729751,
   },
   {
     id: "GBR",
-    value: 757120,
+    value: 742328,
   },
   {
     id: "GEO",
-    value: 158702,
+    value: 320337,
   },
   {
     id: "GHA",
-    value: 893180,
+    value: 440897,
   },
   {
     id: "GIN",
-    value: 877288,
+    value: 895487,
   },
   {
     id: "GMB",
-    value: 724530,
+    value: 612949,
   },
   {
     id: "GNB",
-    value: 387753,
+    value: 771584,
   },
   {
     id: "GNQ",
-    value: 706118,
+    value: 910418,
   },
   {
     id: "GRC",
-    value: 377796,
+    value: 643773,
   },
   {
     id: "GTM",
-    value: 66890,
+    value: 28701,
   },
   {
     id: "GUY",
-    value: 719300,
+    value: 138839,
   },
   {
     id: "HND",
-    value: 739590,
+    value: 885319,
   },
   {
     id: "HRV",
-    value: 929467,
+    value: 441696,
   },
   {
     id: "HTI",
-    value: 538961,
+    value: 902805,
   },
   {
     id: "HUN",
-    value: 146095,
+    value: 913162,
   },
   {
     id: "IDN",
-    value: 490681,
+    value: 869014,
   },
   {
     id: "IND",
-    value: 549818,
+    value: 494499,
   },
   {
     id: "IRL",
-    value: 630163,
+    value: 724102,
   },
   {
     id: "IRN",
-    value: 596921,
+    value: 4389,
   },
   {
     id: "IRQ",
-    value: 767023,
+    value: 926784,
   },
   {
     id: "ISL",
-    value: 478682,
+    value: 810294,
   },
   {
     id: "ISR",
-    value: 963688,
+    value: 98445,
   },
   {
     id: "ITA",
-    value: 393089,
+    value: 940151,
   },
   {
     id: "JAM",
-    value: 83173,
+    value: 394525,
   },
   {
     id: "JOR",
-    value: 52005,
+    value: 812655,
   },
   {
     id: "JPN",
-    value: 199174,
+    value: 362113,
   },
   {
     id: "KAZ",
-    value: 181424,
+    value: 482600,
   },
   {
     id: "KEN",
-    value: 60946,
+    value: 951140,
   },
   {
     id: "KGZ",
-    value: 432478,
+    value: 125529,
   },
   {
     id: "KHM",
-    value: 254461,
+    value: 736427,
   },
   {
     id: "OSA",
-    value: 942447,
+    value: 683561,
   },
   {
     id: "KWT",
-    value: 414413,
+    value: 140898,
   },
   {
     id: "LAO",
-    value: 448339,
+    value: 215467,
   },
   {
     id: "LBN",
-    value: 620090,
+    value: 952187,
   },
   {
     id: "LBR",
-    value: 435950,
+    value: 592317,
   },
   {
     id: "LBY",
-    value: 75091,
+    value: 930581,
   },
   {
     id: "LKA",
-    value: 595124,
+    value: 376263,
   },
   {
     id: "LSO",
-    value: 483524,
+    value: 647107,
   },
   {
     id: "LTU",
-    value: 867357,
+    value: 514858,
   },
   {
     id: "LUX",
-    value: 689172,
+    value: 310702,
   },
   {
     id: "LVA",
-    value: 742980,
+    value: 190254,
   },
   {
     id: "MAR",
-    value: 236538,
+    value: 119965,
   },
   {
     id: "MDA",
-    value: 926836,
+    value: 906010,
   },
   {
     id: "MDG",
-    value: 840840,
+    value: 425794,
   },
   {
     id: "MEX",
-    value: 353910,
+    value: 232849,
   },
   {
     id: "MKD",
-    value: 505842,
+    value: 305911,
   },
   {
     id: "MLI",
-    value: 286082,
+    value: 379994,
   },
   {
     id: "MMR",
-    value: 915544,
+    value: 120081,
   },
   {
     id: "MNE",
-    value: 609500,
+    value: 8865,
   },
   {
     id: "MNG",
-    value: 410428,
+    value: 321083,
   },
   {
     id: "MOZ",
-    value: 32868,
+    value: 928198,
   },
   {
     id: "MRT",
-    value: 375671,
+    value: 903955,
   },
   {
     id: "MWI",
-    value: 591935,
+    value: 308181,
   },
   {
     id: "MYS",
-    value: 991644,
+    value: 357417,
   },
   {
     id: "NAM",
-    value: 701897,
+    value: 762270,
   },
   {
     id: "NCL",
-    value: 144098,
+    value: 332442,
   },
   {
     id: "NER",
-    value: 312944,
+    value: 530834,
   },
   {
     id: "NGA",
-    value: 862877,
+    value: 317812,
   },
   {
     id: "NIC",
-    value: 90831,
+    value: 591331,
   },
   {
     id: "NLD",
-    value: 281879,
+    value: 264753,
   },
   {
     id: "NOR",
-    value: 224537,
+    value: 651684,
   },
   {
     id: "NPL",
-    value: 322331,
+    value: 577728,
   },
   {
     id: "NZL",
-    value: 86615,
+    value: 295802,
   },
   {
     id: "OMN",
-    value: 707881,
+    value: 458081,
   },
   {
     id: "PAK",
-    value: 158577,
+    value: 430357,
   },
   {
     id: "PAN",
-    value: 738579,
+    value: 760639,
   },
   {
     id: "PER",
-    value: 248751,
+    value: 247658,
   },
   {
     id: "PHL",
-    value: 557292,
+    value: 256269,
   },
   {
     id: "PNG",
-    value: 516874,
+    value: 722486,
   },
   {
     id: "POL",
-    value: 682137,
+    value: 984418,
   },
   {
     id: "PRI",
-    value: 957399,
+    value: 77772,
   },
   {
     id: "PRT",
-    value: 846430,
+    value: 301951,
   },
   {
     id: "PRY",
-    value: 720555,
+    value: 638042,
   },
   {
     id: "QAT",
-    value: 478726,
+    value: 833525,
   },
   {
     id: "ROU",
-    value: 259318,
+    value: 130625,
   },
   {
     id: "RUS",
-    value: 268735,
+    value: 84874,
   },
   {
     id: "RWA",
-    value: 136781,
+    value: 739670,
   },
   {
     id: "ESH",
-    value: 151957,
+    value: 909974,
   },
   {
     id: "SAU",
-    value: 111821,
+    value: 368719,
   },
   {
     id: "SDN",
-    value: 927112,
+    value: 267193,
   },
   {
     id: "SDS",
-    value: 966473,
+    value: 72311,
   },
   {
     id: "SEN",
-    value: 158085,
+    value: 180618,
   },
   {
     id: "SLB",
-    value: 178389,
+    value: 565892,
   },
   {
     id: "SLE",
-    value: 528433,
+    value: 616816,
   },
   {
     id: "SLV",
-    value: 353467,
+    value: 601060,
   },
   {
     id: "ABV",
-    value: 251,
+    value: 733543,
   },
   {
     id: "SOM",
-    value: 445243,
+    value: 136379,
   },
   {
     id: "SRB",
-    value: 202402,
+    value: 851876,
   },
   {
     id: "SUR",
-    value: 972121,
+    value: 658508,
   },
   {
     id: "SVK",
-    value: 319923,
+    value: 995233,
   },
   {
     id: "SVN",
-    value: 728766,
+    value: 703518,
   },
   {
     id: "SWZ",
-    value: 379669,
+    value: 147823,
   },
   {
     id: "SYR",
-    value: 16221,
+    value: 287560,
   },
   {
     id: "TCD",
-    value: 101273,
+    value: 13051,
   },
   {
     id: "TGO",
-    value: 498411,
+    value: 645135,
   },
   {
     id: "THA",
-    value: 506906,
+    value: 154996,
   },
   {
     id: "TJK",
-    value: 613093,
+    value: 661913,
   },
   {
     id: "TKM",
-    value: 327016,
+    value: 12593,
   },
   {
     id: "TLS",
-    value: 607972,
+    value: 492750,
   },
   {
     id: "TTO",
-    value: 936365,
+    value: 113166,
   },
   {
     id: "TUN",
-    value: 898416,
+    value: 832350,
   },
   {
     id: "TUR",
-    value: 237783,
+    value: 296655,
   },
   {
     id: "TWN",
-    value: 878213,
+    value: 90781,
   },
   {
     id: "TZA",
-    value: 442174,
+    value: 296201,
   },
   {
     id: "UGA",
-    value: 720710,
+    value: 81525,
   },
   {
     id: "UKR",
-    value: 74172,
+    value: 873564,
   },
   {
     id: "URY",
-    value: 753177,
+    value: 10264,
   },
   {
     id: "USA",
-    value: 658725,
+    value: 301961,
   },
   {
     id: "UZB",
-    value: 550313,
+    value: 974917,
   },
   {
     id: "VEN",
-    value: 707492,
+    value: 730223,
   },
   {
     id: "VNM",
-    value: 538907,
+    value: 833570,
   },
   {
     id: "VUT",
-    value: 650646,
+    value: 167825,
   },
   {
     id: "PSE",
-    value: 476078,
+    value: 793363,
   },
   {
     id: "YEM",
-    value: 957751,
+    value: 631667,
   },
   {
     id: "ZAF",
-    value: 836949,
+    value: 328770,
   },
   {
     id: "ZMB",
-    value: 714503,
+    value: 865087,
   },
   {
     id: "ZWE",
-    value: 405217,
+    value: 426154,
   },
   {
     id: "KOR",
-    value: 171135,
+    value: 341124,
   },
 ];

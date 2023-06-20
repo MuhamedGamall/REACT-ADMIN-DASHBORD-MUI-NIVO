@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
-import { Link, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import { tokens } from "../../theme";
 
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
@@ -51,7 +51,7 @@ const ProSidebar = () => {
         display: "flex",
         height: "100vh",
         top: 0,
-        bottom: 0,
+        // bottom: 0,
         zIndex: 10000,
         "& .ps-sidebar-root ": {
           boxShadow: `5px 0 20px 3px ${colors.shadow[100]} !important`,
