@@ -2,8 +2,6 @@ import { Box, Button, TextField, useMediaQuery } from "@mui/material";
 import { useFormik } from "formik";
 import Header from "../../components/Header";
 import { userSchema } from "../../util/validationSchema";
-import { Form as myForm } from "react-bootstrap";
-import { memo } from "react";
 
 const Form = () => {
 

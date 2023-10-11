@@ -1,4 +1,3 @@
-import { ResponsivePie } from "@nivo/pie";
 import { mockLineData as data } from "../graphData/mockData";
 import { useTheme } from "@mui/material";
 import { tokens } from "../theme";

@@ -1,4 +1,4 @@
-import { Box, Typography, colors, useTheme } from "@mui/material";
+import { Box, Typography, useTheme } from "@mui/material";
 import { tokens } from "../theme";
 
 const Header = ({ title, subTitle }) => {
